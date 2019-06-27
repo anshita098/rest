@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Add New Employee</h1>  
+<form action="SaveServlet" method="get">  
+<table>  
+<tr><td>FirstName:</td><td><input type="text" name="name"/></td></tr>  
+<tr><td>LastName</td><td><input type="text" name="lname"/></td></tr>  
+<tr><td>DateOfJoining</td><td><input type="text" name="doj"/></td></tr>  
+<tr><td>Department</td><td>  
+<select name="dept" style="width:150px">  
+<option>Sales</option>  
+<option>Finance</option>  
+<option>IT</option>  
+<option>HR</option>  
+</select>  
+</td></tr>  
+<tr><td colspan="2"><input type="submit" value="Save Employee"/></td></tr>  
+</table>  
+</form>  
+  
+<br/>  
+<a href="ViewCustomer.jsp">View Employees</a>  
+
+</body>
+</html>
